@@ -2,7 +2,7 @@ import React from 'react';
 
 const LikeSection = props => {
   return (
-    <div>
+<div>
     <div
       className="like-section"
       key="likes-icons-container"
@@ -15,8 +15,9 @@ const LikeSection = props => {
       </div>
     </div>
     <p className="like-number">
+      {props.like} likes
       
-      likes</p>
+    </p>
 </div>
   )
 };
